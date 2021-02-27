@@ -12,6 +12,7 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Montserrat', sans-serif;
     font-size: 62.5%;
     color: ${theme.colors.text};
+    background-color: ${theme.colors.background};
   }
 `
 

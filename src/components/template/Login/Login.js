@@ -28,11 +28,15 @@ transform: translateX(-50%);
 const Login = () => {
 
     return (
+        <>
+
             <Wrapper>
-                <Header>Virtual desk</Header>
                 <Particle/>
+                <Header>Virtual desk</Header>
                 <LoginCard/>
             </Wrapper>
+
+        </>
     )
 }
 

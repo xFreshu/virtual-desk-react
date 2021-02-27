@@ -1,9 +1,16 @@
 import Particles from "react-particles-js";
+import styled from 'styled-components'
+
+const Test = styled(Particles)`
+height: 100vh;
+width: 100%;
+`
+
 
 const Particle = () => {
 
     return (
-        <Particles
+        <Test
             params={{
                 "particles": {
                     "number": {
@@ -11,8 +18,9 @@ const Particle = () => {
                     },
                     "size": {
                         "value": 3
-                    }
+                    },
                 },
+
                 "interactivity": {
                     "events": {
                         "onhover": {
@@ -21,7 +29,8 @@ const Particle = () => {
                         }
                     }
                 }
-            }} />
+            }}
+        />
     )
 }
 
