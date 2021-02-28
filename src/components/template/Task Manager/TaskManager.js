@@ -10,7 +10,7 @@ const TaskManager = () => {
 
     return (
         <Wrapper>
-            <div>1234</div>
+            <div>Task mangaer view</div>
         </Wrapper>
     )
 }

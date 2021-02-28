@@ -4,6 +4,7 @@ import styled from 'styled-components'
 const Test = styled(Particles)`
 height: 100vh;
 width: 100%;
+position: absolute;
 `
 
 
