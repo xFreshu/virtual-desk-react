@@ -1,7 +1,7 @@
 import Particles from "react-particles-js";
 import styled from 'styled-components'
 
-const Test = styled(Particles)`
+const ParticleWrapper = styled(Particles)`
 height: 100vh;
 width: 100%;
 position: absolute;
@@ -11,7 +11,7 @@ position: absolute;
 const Particle = () => {
 
     return (
-        <Test
+        <ParticleWrapper
             params={{
                 "particles": {
                     "number": {
