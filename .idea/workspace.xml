@@ -25,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../repository/study-buddy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -33,6 +33,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Łukasz Przybysz\Desktop\virtual-desk-react\src\assets\Global Style" />
+      <recent name="C:\Users\Łukasz Przybysz\Desktop\virtual-desk-react\src\assets" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -46,7 +52,9 @@
       <workItem from="1614507536848" duration="7094000" />
       <workItem from="1614517980297" duration="144000" />
       <workItem from="1614538605870" duration="1804000" />
-      <workItem from="1614613114501" duration="8350000" />
+      <workItem from="1614613114501" duration="8480000" />
+      <workItem from="1614876511494" duration="587000" />
+      <workItem from="1615305719594" duration="1908000" />
     </task>
     <servers />
   </component>
@@ -54,10 +62,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614613939135">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1614877104801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-349.1080.1880@0.0.1920.1040" timestamp="1614613939135" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1080.-349.1080.1880@0.0.1920.1040" timestamp="1614877104801" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1614510311921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
