@@ -1,17 +1,19 @@
 import React, {useState} from 'react'
 import {Wrapper, Input, Button} from "./AddTask.styled";
 
-const AddTask = ({ onAdd }) => {
+const AddTask = ({onAdd}) => {
     const [task, setTask] = useState();
     const [date, setDate] = useState();
+
 
     const onSubmit = (e) => {
         e.preventDefault()
 
-        if (!task){
+        if (!task) {
             alert('Please add your task name!')
-        return}
-        if(!date){
+            return
+        }
+        if (!date) {
             alert('Please add your deadline!')
             return
         }

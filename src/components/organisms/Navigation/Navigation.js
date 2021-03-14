@@ -1,8 +1,8 @@
 import React from 'react'
 import {BrowserRouter as Router, Switch, Route, NavLink} from 'react-router-dom'
-import TaskManager from "../Task Manager/TaskManager";
-import Notes from "../Notes/Notes";
-import Dashboard from "../Dashboard/Dashboard";
+import TaskManager from "../../views/Task Manager/TaskManager";
+import Notes from "../../views/Notes/Notes";
+import Dashboard from "../../views/Dashboard/Dashboard";
 import {NavBar, LinkList, LinkItem, StyledLink} from "./Navigation.styled";
 
 const Navigation = () => {
@@ -12,7 +12,7 @@ const Navigation = () => {
                 <NavBar>
                     <LinkList>
                         <LinkItem>
-                            <StyledLink to='/Dashboard' activeClassName='nav-item-active'>Dashboard</StyledLink>
+                            <StyledLink exact to='/' activeClassName='nav-item-active'>Dashboard</StyledLink>
                         </LinkItem>
                         <LinkItem>
                             <StyledLink to='/TaskManager'>Task Manager</StyledLink>
@@ -30,7 +30,7 @@ const Navigation = () => {
                     <Route path='/Notes'>
                         <Notes/>
                     </Route>
-                    <Route path='/Dashboard'>
+                    <Route path='/'>
                         <Dashboard/>
                     </Route>
                 </Switch>

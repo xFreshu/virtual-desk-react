@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from "../template/Navigation/Navigation";
+import Navigation from "../organisms/Navigation/Navigation";
 import Particle from "../../assets/Global Style/Particles/Particles";
 
 const Root = () => {
